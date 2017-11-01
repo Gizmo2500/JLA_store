@@ -13,3 +13,73 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+/*.navbar {
+	background-color: black;
+}*/
+
+.navbar-brand img{
+    height: 60px;
+    width: 75px;
+    margin-top: -17px;
+    margin-bottom: 15px; 
+}
+.slide-image {
+
+	max-height: 400px;
+	max-width: 800px;
+}
+
+.container {
+	/*background: url(https://www.walldevil.com/wallpapers/w02/602580-aquaman-batman-blue-cyborgs-flash-superhero-green-lantern-justice-league-superman-wonder-woman.jpg);
+*/
+   background-color: rgb(34, 75, 142);
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
